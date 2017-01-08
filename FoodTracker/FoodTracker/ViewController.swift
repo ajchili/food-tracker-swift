@@ -11,8 +11,8 @@ import UIKit
 class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     // MARK: Properties
-    @IBOutlet var mealNameLabel: UILabel!
-    @IBOutlet var nameTextField: UITextField!
+    @IBOutlet weak var mealNameLabel: UILabel!
+    @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var photoImageView: UIImageView!
     
     override func viewDidLoad() {
@@ -58,8 +58,9 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         dismiss(animated: true, completion: nil)
     }
     
+    
     // MARK: Actions
-    @IBAction func selectImageFromPhotoLirbary(_ sender: UITapGestureRecognizer) {
+    @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
         // Hide the keyboard
         nameTextField.resignFirstResponder()
         
