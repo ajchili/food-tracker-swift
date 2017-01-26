@@ -23,7 +23,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6tT-yg-4pJ" id="Z1j-B6-plw">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="89"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" highlightedImage="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="DRa-CW-yJl">
@@ -128,7 +128,7 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="save" id="mgI-mH-Jku">
                             <connections>
-                                <segue destination="JvX-Cz-Mr3" kind="unwind" unwindAction="unwindToMealListWithSender:" id="7sJ-wi-IC5"/>
+                                <segue destination="JvX-Cz-Mr3" kind="unwind" unwindAction="unwindToMealListWithSender:" id="2UO-wA-3iE"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

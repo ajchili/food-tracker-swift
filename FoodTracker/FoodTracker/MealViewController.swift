@@ -87,17 +87,6 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         meal = Meal(name: name, photo: photo, rating: rating)
     }
     
-    // MARK: Actions
-    @IBAction func unwindToMealList(sender: UIStoryboardSegue) {
-        if let sourceViewController = sender.source as? MealViewController, let meal = sourceViewController.meal {
-            // Add a new meal.
-            let newIndexPath = IndexPath(row: meals.count, section: .automatic)
-            
-            meals.append(meal)
-            sender.tableView.insertRows(at: [newIndexPath], with: .automatic)
-        }
-    }
-    
     @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
         // Hide the keyboard
         nameTextField.resignFirstResponder()
