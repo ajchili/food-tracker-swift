@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D30a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Wum-gX-mbv">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Wum-gX-mbv">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -23,7 +23,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6tT-yg-4pJ" id="Z1j-B6-plw">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="89"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" highlightedImage="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="DRa-CW-yJl">
@@ -58,7 +58,7 @@
                     <navigationItem key="navigationItem" title="Your Meals" id="uEP-8C-kLK">
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="85U-rK-OJY">
                             <connections>
-                                <segue destination="zzE-Pk-7bF" kind="presentation" identifier="AddItem" id="2LZ-yZ-Zgm"/>
+                                <segue destination="zzE-Pk-7bF" kind="show" id="Vfu-d3-EpE"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -133,7 +133,6 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="cancel" destination="tRf-3n-MYE" id="kAD-jC-hQP"/>
                         <outlet property="nameTextField" destination="fdT-61-GSI" id="Scw-y2-zk0"/>
                         <outlet property="photoImageView" destination="b0f-2k-mEa" id="abA-fw-1Im"/>
                         <outlet property="ratingControl" destination="e7g-lp-R0O" id="Stz-Fp-BnI"/>
