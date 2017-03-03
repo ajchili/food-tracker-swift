@@ -59,7 +59,7 @@
                     <navigationItem key="navigationItem" title="Your Meals" id="uEP-8C-kLK">
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="85U-rK-OJY">
                             <connections>
-                                <segue destination="zzE-Pk-7bF" kind="show" id="Vfu-d3-EpE"/>
+                                <segue destination="zzE-Pk-7bF" kind="show" identifier="AddItem" id="K62-1k-t8y"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
